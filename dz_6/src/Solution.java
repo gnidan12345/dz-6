@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Solution {
 
-    public void totalSum(int numbers[]) {
+    public int totalSum(int numbers[]) {
 
         List<Integer> helpList = new ArrayList<>();
 
@@ -21,13 +21,16 @@ public class Solution {
             sum += helpList.get(i);
 
         }
-
         System.out.println(sum);
+        return sum;
+
 
 
     }
 
 
 }
+
+
 
 
