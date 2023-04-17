@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Solution {
 
-    public void totalSum(int numbers[]) {
+    public int totalSum(int numbers[]) {
 
         List<Integer> helpList = new ArrayList<>();
 
@@ -23,7 +23,7 @@ public class Solution {
         }
 
         System.out.println(sum);
-
+        return(sum);
 
     }
 
